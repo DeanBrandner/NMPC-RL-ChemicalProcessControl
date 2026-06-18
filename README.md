@@ -7,12 +7,13 @@ This repository contains the implementation of the the methods and results prese
 This project provides the necessary implementations for reproduction of the results in the manuscript.
 This includes all generation, training and visualtization scripts. 
 This repository inludes:
-1. Zeroth order parameter estimation via Bayesian optimization of the high-fidelity model of the batch distillation column,
-2. Sampling of training data for the control-oriented surrogate model via APRBS,
-3. Training a control-oriented surrogate model based on this data,
-4. Training a parameterized NMPC policy in an uncertainty aware environment in a simulative RL loop,
-5. Application to the real batch distillation plant.
-6. All necessary plotting utilities
+1. High-fidelity model of the batch distillation column,
+2. Zeroth order parameter estimation via Bayesian optimization of the high-fidelity model of the batch distillation column,
+3. Sampling of training data for the control-oriented surrogate model via APRBS,
+4. Training a control-oriented surrogate model based on this data,
+5. Training a parameterized NMPC policy in an uncertainty aware environment in a simulative RL loop,
+6. Application to the real batch distillation plant.
+7. All necessary plotting utilities
  
 ## Repository structure
 ```text
@@ -73,6 +74,9 @@ NMPC-RL-ChemicalProcessControl/
 ```
 
 ## Key components
+### High-fidelity model of batch distillation
+The high-fidelity model is implemented in do-mpc. It can be found in `models/batchcol_model_dompc.py`. This model is accessed several times. Among others, in `environment.py` and `parameter_estimation.py`
+
 ### Parameter estimation via Bayesian optimization
 Run `parameter_estimation/parameter_estimation.py` to reproduce the results from the paper. For differnet settings run the `main()` function in that `parameter_estimation/parameter_estimation.py`. The results can be visualized by executing the Jupyter notebook `plot_BO_probes.ipynb`. Adjust `BO_probes_path` to point to the correct `*.csv` file.
 
