@@ -1,0 +1,15 @@
+{
+    "diverse_initial_conditions": true,
+    "enable_sensitivity": false,
+    "initial_condition_path": "data\\LVcolumn_DAE_init\\IC_sample_1000_tight_cleaned.pkl",
+    "meas_noise_bool": true,
+    "n_history": 0,
+    "parametric_uncertainty_bool": true,
+    "parametric_uncertainty_sampling_frequency": "episode",
+    "rescale_actions": false,
+    "scale_observations": false,
+    "seed": 0,
+    "t_max": 7200.0,
+    "t_step": 120.0,
+    "version": 10
+}

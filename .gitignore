@@ -1,0 +1,9 @@
+*.pyc
+/data/LVcolumn_experiment_controlled/figs
+/data/LVcolumn_Sampling
+!/surr_models/
+/surr_models/*/
+!/agents/
+/agents/*/
+!/parameter_estimation/Results/
+/parameter_estimation/Results/*/

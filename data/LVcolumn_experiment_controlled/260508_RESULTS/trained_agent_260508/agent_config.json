@@ -1,0 +1,16 @@
+{
+    "actor_learning_rate": 0.0001,
+    "adam_beta_1": 0.9,
+    "adam_beta_2": 0.999,
+    "adam_epsilon": 1e-05,
+    "baseline": "constant",
+    "clc_scale": 1.0,
+    "exploration_noise_std": [
+        0.005,
+        0.05
+    ],
+    "exploration_seed": 0,
+    "gamma": 1.0,
+    "use_adam": true,
+    "verbose": 1
+}

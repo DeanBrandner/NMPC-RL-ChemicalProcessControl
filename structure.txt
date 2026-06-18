@@ -1,0 +1,72 @@
+﻿NMPC-RL-ChemicalProcessControl/
+|-- agents/
+|   +-- Here will be the agents.txt
+|-- data/
+|   |-- experimentaldata/
+|   |   |-- 260312/
+|   |   |   +-- results/
+|   |   |-- 260318_1/
+|   |   |   +-- results/
+|   |   |-- 260318_2/
+|   |   |   +-- results/
+|   |   |-- 260414_1/
+|   |   |   +-- results/
+|   |   +-- 260414_2/
+|   |       +-- results/
+|   |-- LVcolumn_DAE_init/
+|   |-- LVcolumn_experiment_controlled/
+|   |   |-- 260508_RESULTS/
+|   |   |   |-- trained_agent_260508/
+|   |   |   |   +-- results/
+|   |   |   |       +-- MPC_trained/
+|   |   |   +-- untrained_agent_260508/
+|   |   |       +-- results/
+|   |   |           +-- MPC_untrained/
+|   |   +-- figs/
+|   |-- LVcolumn_Sampling/
+|   |-- validation/
+|   |   |-- trained/
+|   |   |   +-- 2026_05_08_trainedagent_MPC.py
+|   |   +-- untrained/
+|   |       +-- 2026_05_08_untrainedagent_MPC.py
+|   +-- Here will be the data.txt
+|-- initialization_convergence_study/
+|   +-- convergence_study_parallel.py
+|-- models/
+|   |-- batchcol_model_dompc.py
+|   |-- batchcol_model_dompc_pe_init.py
+|   +-- simulate_init_recipe.py
+|-- parameter_estimation/
+|   |-- Results/
+|   |   +-- Here will be the Results.txt
+|   |-- parameter_estimation.py
+|   |-- plot_BO_probes.ipynb
+|   |-- plot_pe_results.py
+|   |-- rawdata.py
+|   +-- replotfigures.py
+|-- surr_models/
+|   +-- Here will be the surr_models.txt
+|-- .gitignore
+|-- _model_for_rl.py
+|-- _rl_simulator.py
+|-- APRBS.py
+|-- environment.py
+|-- helper.py
+|-- LICENSE
+|-- mp_utils.py
+|-- narx_functions.py
+|-- narx_system_handler.py
+|-- optimizer.py
+|-- README.md
+|-- replay_buffer.py
+|-- results.ipynb
+|-- RL_MPC.py
+|-- rl_mpc_agents_stoch.py
+|-- sample_data_for_surrogate.py
+|-- structure.txt
+|-- surrogate_mpc.py
+|-- train_mpc_with_REINFORCE.py
+|-- train_multistep_narx.ipynb
+|-- transform_ic.py
+|-- transform_to_do_mpc.py
++-- visualize_agent_experiment.ipynb
