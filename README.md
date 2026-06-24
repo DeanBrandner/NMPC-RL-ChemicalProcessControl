@@ -1,6 +1,6 @@
-# Enabling NMPC-Based Reinforcement Learning for Real-World Chemical Process Control: A Batch Distillation Case Study
+# NMPC-Based Reinforcement Learning for Real-World Chemical Process Control: A Batch Distillation Case Study
 This repository contains the implementation of the the methods and results presented in the paper:
-> **Enabling NMPC-Based Reinforcement Learning for Real-World Chemical Process Control: A Batch Distillation Case Study**  
+> **NMPC-Based Reinforcement Learning for Real-World Chemical Process Control: A Batch Distillation Case Study**  
 > Torben Talis, Dean Brandner, Erik Esche, Jens-Uwe Repke, Sergio Lucia, Christian Hoffmann
 
 ## Overview
